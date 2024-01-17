@@ -1,0 +1,13 @@
+# Template file for 'xmake'
+pkgname=xmake
+version=2.8.6
+revision=1
+build_style=configure
+configure_args="--prefix=/usr"
+short_desc="Cross-platform build utility based on Lua"
+maintainer="Brandon Little <drinco@tutanota.de>"
+license="Apache-2.0"
+homepage="https://xmake.io/#/"
+distfiles="https://github.com/xmake-io/xmake/releases/download/v${version}/xmake-v${version}.tar.gz"
+checksum=0e6284eafd51a3236098213c095237f56acafae9a88a50406b882cce5ea26b3d
+python_version=3
